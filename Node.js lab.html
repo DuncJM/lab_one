@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h4>Background</h4>
+<p>Consider the following Node.js application named program.js:</p>
+<pre>// print process.argv
+process.argv.forEach(function (val, index, array) {
+  console.log(index + ': ' + val);
+});
+</pre>
+<p>When you run the above app from a terminal window with arguments one two three (<span style="color: #cf2a27;">in red</span>) you will get the output (<span style="color: #009e0f;">in green</span>):</p>
+<p style="color: red;">node .\program.js one two three</p>
+<pre style="color: green;">0: C:\Program Files\nodejs\node.exe
+1: D:\OneDrive\BCIT\SSDP2501\201710\lessons\1\args\program.js
+2: one
+3: two
+4: three
+</pre>
+<hr />
+<h4>Your Mission:</h4>
+<p>Consider the following formulas pertaining to a circle:</p>
+<pre>Perimeter of a circle: 		2 * PI * radius
+Area of a circle is: 		PI * radius * radius
+Volume of a sphere: 		(4 * PI * radius * radius * radius)/3
+</pre>
+<p>Write a Node.js app named app<em>.js</em> that works like this: <br /><br /> &nbsp; &nbsp; &nbsp; &nbsp;<em>node app.js p 10</em> &nbsp;<br /><br /> Output: The perimeter of a circle with radius 10 is 62.83 <br /><br />&nbsp; &nbsp; &nbsp; &nbsp;<em>node app.js a 10</em> &nbsp;<br /><br /> Output: The area of a circle with radius 10 is 314.16 <br /><br /> &nbsp; &nbsp; &nbsp; &nbsp;n<em>ode app.js v 10</em>&nbsp;<br /><br /> Output: The volume of a circle with radius 10 is 4188.79 </p>
+<ul>
+<li>The functions that calculate the perimeter, area and volume must be placed in a sub-folder named <em style="color: inherit;">calc.</em></li>
+<li>Use the toFixed() function to display the results in two decimal places.</li>
+<li>Add appropriate validation to ensure that only arguments p, a and v are allowed. Also, the last argument must be numeric.</li>
+</ul>
+<hr />
+<h4>Getting marked for your work</h4>
+<p>When you are done, show your work to your lab instructor and he will give you a mark on the spot.</p>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "lab_one",
+  "version": "1.0.0",
+  "description": "Lab One - MEAN development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lab_one"
+  ],
+  "author": "Duncan James May",
+  "license": "ISC"
+}
